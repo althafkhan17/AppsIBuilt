@@ -1,7 +1,32 @@
 # Apps I Built
 
-One small app at a time. Each folder is a standalone web app.
+This is where I keep the small apps I build to practice. The idea is simple: build something small, finish it, ship it, and write down what I learned while making it.
 
-| # | App | What it does | Live |
-|---|-----|--------------|------|
-| 1 | [Chai Timer](chai-timer/) | Pomodoro focus timer with a chai cup that empties as you work | [Open](https://althafkhan17.github.io/AppsIBuilt/chai-timer/) |
+Every app has its own folder and its own README with why I built it, how it works and what I learned. They're all plain web apps, so you can open them right in the browser.
+
+## The apps
+
+| # | App | What it does | Live demo |
+|---|-----|--------------|-----------|
+| 1 | [Chai Timer](chai-timer/) | Pomodoro focus timer with a chai cup that empties while you work | [Open](https://althafkhan17.github.io/AppsIBuilt/chai-timer/) |
+
+## Why I'm doing this
+
+I'm a software engineer, and I noticed I was reading and watching a lot of tutorials but not building enough. Small projects force me to actually finish things and deal with the annoying details that tutorials skip.
+
+## Rules I'm following
+
+- Keep each app small enough to finish
+- No heavy frameworks unless the app really needs one
+- Every app gets a README with what I learned
+- Ship it live, even if it isn't perfect
+
+## Run any app locally
+
+```bash
+git clone https://github.com/althafkhan17/AppsIBuilt.git
+cd AppsIBuilt/<app-folder>
+# open index.html in your browser
+```
+
+Feedback and suggestions are welcome. Feel free to open an issue.
