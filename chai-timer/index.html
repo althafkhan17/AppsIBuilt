@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chai Timer ☕ – Focus. Break. Chai.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+  <h1>☕ Chai Timer</h1>
+  <p class="tag">Focus hard, then reward yourself with chai.</p>
+  <div class="modes">
+    <button data-mode="focus" class="active">Focus 25</button>
+    <button data-mode="short">Chai Break 5</button>
+    <button data-mode="long">Long Break 15</button>
+  </div>
+  <div class="cup"><div class="fill" id="fill"></div></div>
+  <div class="time" id="time">25:00</div>
+  <div class="controls">
+    <button id="start">Start</button>
+    <button id="reset" class="ghost">Reset</button>
+  </div>
+  <p class="stats">Sessions done today: <span id="count">0</span></p>
+  <p class="quote" id="quote"></p>
+</main>
+<footer>Built by <a href="https://github.com/althafkhan17">althafkhan17</a></footer>
+<script src="app.js"></script>
+</body>
+</html>
