@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Split It</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Split It</h1>
+      <p class="tagline">Who paid, who owes, and the fewest payments to settle up.</p>
+    </header>
+
+    <section class="card">
+      <h2>People</h2>
+      <form id="person-form" class="row">
+        <input id="person-name" type="text" placeholder="Add a name" maxlength="20" autocomplete="off" required>
+        <button type="submit">Add</button>
+      </form>
+      <ul id="people" class="chips"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Add an expense</h2>
+      <form id="expense-form" class="stack">
+        <input id="exp-desc" type="text" placeholder="What was it? (e.g. Dinner)" maxlength="40" required>
+        <div class="row">
+          <input id="exp-amount" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="Amount" required>
+          <select id="exp-payer" required></select>
+        </div>
+        <fieldset>
+          <legend>Split between</legend>
+          <div id="exp-split" class="checks"></div>
+        </fieldset>
+        <button type="submit">Add expense</button>
+        <p id="form-error" class="error" role="alert"></p>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Expenses</h2>
+        <span id="total" class="muted"></span>
+      </div>
+      <ul id="expenses" class="list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Balances</h2>
+      <ul id="balances" class="list"></ul>
+    </section>
+
+    <section class="card highlight">
+      <h2>Settle up</h2>
+      <ul id="settle" class="list"></ul>
+    </section>
+
+    <div class="actions">
+      <button id="copy-btn" class="ghost">Copy summary</button>
+      <button id="reset-btn" class="ghost danger">Start over</button>
+    </div>
+
+    <footer>by <a href="https://github.com/althafkhan17">althafkhan17</a></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
