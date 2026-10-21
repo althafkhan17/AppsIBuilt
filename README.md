@@ -9,6 +9,7 @@ Every app has its own folder and its own README with why I built it, how it work
 | # | App | What it does | Live demo |
 |---|-----|--------------|-----------|
 | 1 | [Chai Timer](chai-timer/) | Pomodoro focus timer with a chai cup that empties while you work | [Open](https://althafkhan17.github.io/AppsIBuilt/chai-timer/) |
+| 2 | [Split It](expense-splitter/) | Expense splitter for trips that works out the fewest payments to settle up | [Open](https://althafkhan17.github.io/AppsIBuilt/expense-splitter/) |
 
 ## Why I'm doing this
 
