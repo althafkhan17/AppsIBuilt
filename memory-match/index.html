@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory Match</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+  <header>
+    <h1>Memory Match</h1>
+    <p class="tagline">Flip two cards. Find all the pairs.</p>
+  </header>
+  <section class="stats">
+    <div class="stat"><span id="moves">0</span><small>Moves</small></div>
+    <div class="stat"><span id="time">0s</span><small>Time</small></div>
+    <div class="stat"><span id="best">-</span><small>Best moves</small></div>
+  </section>
+  <div class="controls">
+    <select id="size" aria-label="Board size">
+      <option value="8">4 x 4 (easy)</option>
+      <option value="12">4 x 6 (medium)</option>
+    </select>
+    <button id="restart">New game</button>
+  </div>
+  <section id="board" class="board" aria-label="Game board"></section>
+  <p id="msg" class="msg"></p>
+  <footer>by <a href="https://github.com/althafkhan17">althafkhan17</a></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
