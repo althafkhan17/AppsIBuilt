@@ -12,6 +12,7 @@ Every app has its own folder and its own README with why I built it, how it work
 | 2 | [Split It](expense-splitter/) | Expense splitter for trips that works out the fewest payments to settle up | [Open](https://althafkhan17.github.io/AppsIBuilt/expense-splitter/) |
 | 3 | [Type Fast](typing-test/) | 30 second typing speed test with live WPM and accuracy | [Open](https://althafkhan17.github.io/AppsIBuilt/typing-test/) |
 | 4 | [Memory Match](memory-match/) | Card matching game with move counter, timer and best score | [Open](https://althafkhan17.github.io/AppsIBuilt/memory-match/) |
+| 5 | [Lock Smith](password-generator/) | Password generator with entropy-based strength meter and look-alike filter | [Open](https://althafkhan17.github.io/AppsIBuilt/password-generator/) |
 
 ## Why I'm doing this
 
