@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lock Smith - Password Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+  <h1>🔐 Lock Smith</h1>
+  <p class="tagline">Strong passwords, made in your browser.</p>
+  <section class="card">
+    <div class="out">
+      <output id="pw" aria-live="polite"></output>
+      <button id="copy" type="button">Copy</button>
+    </div>
+    <div class="meter"><div id="bar"></div></div>
+    <p id="strength" class="muted"></p>
+  </section>
+  <section class="card">
+    <label class="len">Length: <b id="lenVal">16</b>
+      <input id="len" type="range" min="6" max="48" value="16"></label>
+    <label><input type="checkbox" id="lower" checked> Lowercase (a-z)</label>
+    <label><input type="checkbox" id="upper" checked> Uppercase (A-Z)</label>
+    <label><input type="checkbox" id="digits" checked> Numbers (0-9)</label>
+    <label><input type="checkbox" id="symbols" checked> Symbols (!@#$)</label>
+    <label><input type="checkbox" id="ambig"> Skip look-alikes (O, 0, l, 1, I)</label>
+    <button id="gen" type="button" class="primary">Generate new</button>
+  </section>
+  <footer>by <a href="https://github.com/althafkhan17">althafkhan17</a></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
