@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Streak Board</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+  <header>
+    <h1>Streak Board</h1>
+    <p class="tagline">Tick it off today. Don't break the chain.</p>
+  </header>
+  <form id="form" class="add">
+    <input id="name" type="text" maxlength="40" placeholder="New habit, e.g. Read 10 pages" aria-label="Habit name" required>
+    <button type="submit">Add</button>
+  </form>
+  <section id="list" class="list" aria-label="Habits"></section>
+  <p id="empty" class="empty">No habits yet. Add your first one above.</p>
+  <footer>by <a href="https://github.com/althafkhan17">althafkhan17</a></footer>
+</main>
+<script src="logic.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
