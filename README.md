@@ -14,6 +14,7 @@ Every app has its own folder and its own README with why I built it, how it work
 | 4 | [Memory Match](memory-match/) | Card matching game with move counter, timer and best score | [Open](https://althafkhan17.github.io/AppsIBuilt/memory-match/) |
 | 5 | [Lock Smith](password-generator/) | Password generator with entropy-based strength meter and look-alike filter | [Open](https://althafkhan17.github.io/AppsIBuilt/password-generator/) |
 | 6 | [Streak Board](habit-tracker/) | Habit tracker with daily ticks, streaks and a 7 day view | [Open](https://althafkhan17.github.io/AppsIBuilt/habit-tracker/) |
+| 7 | [Unit Swap](unit-converter/) | Unit converter for length, weight, volume, time and temperature | [Open](https://althafkhan17.github.io/AppsIBuilt/unit-converter/) |
 
 ## Why I'm doing this
 
