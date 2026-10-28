@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Flip Deck</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="wrap">
+<header><h1>🃏 Flip Deck</h1><span id="progress"></span></header>
+<section class="card-area">
+<button id="card" class="fc" aria-label="Flashcard, press to flip"><span id="face"></span></button>
+<div class="row"><button id="wrong" class="bad">Missed it</button><button id="right" class="good">Got it</button></div>
+<p class="hint">Tap the card to flip. Space flips, arrows mark.</p>
+</section>
+<section class="panel">
+<h2>Add a card</h2>
+<form id="form"><input id="q" placeholder="Question" required><input id="a" placeholder="Answer" required><button>Add</button></form>
+<div class="row"><button id="shuffle">Shuffle</button><button id="reset">Reset scores</button></div>
+<ul id="list"></ul>
+</section>
+<p class="foot">by <a href="https://github.com/althafkhan17">althafkhan17</a></p>
+</main><script src="app.js"></script></body></html>
