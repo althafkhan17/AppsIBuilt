@@ -17,6 +17,7 @@ Every app has its own folder and its own README with why I built it, how it work
 | 7 | [Unit Swap](unit-converter/) | Unit converter for length, weight, volume, time and temperature | [Open](https://althafkhan17.github.io/AppsIBuilt/unit-converter/) |
 | 8 | [Mark Down](markdown-previewer/) | Markdown previewer with live preview and autosave | [Open](https://althafkhan17.github.io/AppsIBuilt/markdown-previewer/) |
 | 9 | [Flip Deck](flashcards/) | Flashcards that bring back the ones you miss more often | [Open](https://althafkhan17.github.io/AppsIBuilt/flashcards/) |
+| 10 | [Hue Hunt](color-palette/) | Colour palette generator with locking, harmony modes and saved palettes | [Open](https://althafkhan17.github.io/AppsIBuilt/color-palette/) |
 
 ## Why I'm doing this
 
