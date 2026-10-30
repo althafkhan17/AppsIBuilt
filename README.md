@@ -18,6 +18,7 @@ Every app has its own folder and its own README with why I built it, how it work
 | 8 | [Mark Down](markdown-previewer/) | Markdown previewer with live preview and autosave | [Open](https://althafkhan17.github.io/AppsIBuilt/markdown-previewer/) |
 | 9 | [Flip Deck](flashcards/) | Flashcards that bring back the ones you miss more often | [Open](https://althafkhan17.github.io/AppsIBuilt/flashcards/) |
 | 10 | [Hue Hunt](color-palette/) | Colour palette generator with locking, harmony modes and saved palettes | [Open](https://althafkhan17.github.io/AppsIBuilt/color-palette/) |
+| 11 | [Quick Math](quick-math/) | 60 second mental maths game that gets harder as you score | [Open](https://althafkhan17.github.io/AppsIBuilt/quick-math/) |
 
 ## Why I'm doing this
 
